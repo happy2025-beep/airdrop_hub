@@ -24,6 +24,9 @@ export function Header() {
           <Link href="/airdrops?status=upcoming" className="text-gray-300 hover:text-white transition-colors">
             即将开始
           </Link>
+          <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
+            关于
+          </Link>
         </nav>
         
         <div className="flex items-center gap-3">

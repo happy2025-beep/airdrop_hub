@@ -38,6 +38,11 @@ export function Footer() {
                   提交空投
                 </Link>
               </li>
+              <li>
+                <Link href="/about" className="text-gray-400 hover:text-purple-400 transition-colors">
+                  关于我们
+                </Link>
+              </li>
             </ul>
           </div>
           
