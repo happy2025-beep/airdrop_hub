@@ -436,6 +436,173 @@ export const mockAirdrops: Airdrop[] = [
     featured: false,
     createdAt: '2026-02-02',
     updatedAt: '2026-02-06'
+  },
+  {
+    id: '17',
+    slug: 'axiom-trade',
+    name: 'Axiom Trade',
+    description: 'Solana 上高收入的永续合约 DEX，DefiLlama 数据显示为 Solana 收入最高的协议之一。',
+    projectUrl: 'https://axiom.trade',
+    logoUrl: '/logos/axiom.png',
+    category: 'DeFi',
+    chain: 'SOL',
+    status: 'active',
+    estimatedValue: '$500-$5000',
+    difficulty: 'medium',
+    requirements: [
+      '在 Axiom 上进行交易',
+      '保持交易量',
+      '使用平台功能'
+    ],
+    steps: [
+      '连接 Solana 钱包',
+      '充值 USDC/SOL',
+      '进行 Memecoin 或永续合约交易',
+      '持续保持活跃交易量'
+    ],
+    deadline: '2026-03-31',
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-09',
+    updatedAt: '2026-02-09'
+  },
+  {
+    id: '18',
+    slug: 'fuel-network',
+    name: 'Fuel Network',
+    description: '模块化执行层，长期测试网运行，开发者参与度高。',
+    projectUrl: 'https://fuel.network',
+    logoUrl: '/logos/fuel.png',
+    category: 'Infrastructure',
+    chain: 'ETH',
+    status: 'upcoming',
+    estimatedValue: '$500-$3000',
+    difficulty: 'medium',
+    requirements: [
+      '参与测试网交互',
+      '使用钱包功能',
+      '开发者活动'
+    ],
+    steps: [
+      '创建 Fuel 钱包',
+      '获取测试网代币',
+      '与测试网 dApp 交互',
+      '参与开发者活动'
+    ],
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-09',
+    updatedAt: '2026-02-09'
+  },
+  {
+    id: '19',
+    slug: 'zetachain',
+    name: 'ZetaChain',
+    description: '跨链互操作协议，奖励跨多链资产转移和 dApp 交互。',
+    projectUrl: 'https://zetachain.com',
+    logoUrl: '/logos/zetachain.png',
+    category: 'Infrastructure',
+    chain: 'MULTI',
+    status: 'active',
+    estimatedValue: '$200-$1500',
+    difficulty: 'easy',
+    requirements: [
+      '跨链资产转移',
+      'dApp 交互'
+    ],
+    steps: [
+      '连接钱包到 ZetaChain',
+      '进行跨链转账',
+      '使用生态 dApp',
+      '参与 ZETA 代币活动'
+    ],
+    verified: true,
+    featured: false,
+    createdAt: '2026-02-09',
+    updatedAt: '2026-02-09'
+  },
+  {
+    id: '20',
+    slug: 'etherfi',
+    name: 'Ether.fi',
+    description: 'DeFi 再质押协议，通过质押 ETH 和持有 eETH 获得积分奖励。',
+    projectUrl: 'https://ether.fi',
+    logoUrl: '/logos/etherfi.png',
+    category: 'DeFi',
+    chain: 'ETH',
+    status: 'active',
+    estimatedValue: '$500-$3000',
+    difficulty: 'medium',
+    requirements: [
+      'ETH 再质押',
+      '持有 eETH',
+      '参与合作 DeFi 协议'
+    ],
+    steps: [
+      '准备 ETH',
+      '在 Ether.fi 质押获得 eETH',
+      '参与任务获取积分',
+      '积分将转换为 ETHFI 代币'
+    ],
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-09',
+    updatedAt: '2026-02-09'
+  },
+  {
+    id: '21',
+    slug: 'ai-arena',
+    name: 'AI Arena',
+    description: 'Play-to-Earn 游戏，基于游戏表现而非被动挖矿分配奖励。',
+    projectUrl: 'https://aiarena.io',
+    logoUrl: '/logos/aiarena.png',
+    category: 'GameFi',
+    chain: 'ARB',
+    status: 'active',
+    estimatedValue: '$100-$800',
+    difficulty: 'medium',
+    requirements: [
+      '进行游戏对战',
+      '提升排名'
+    ],
+    steps: [
+      '注册 AI Arena 账号',
+      '连接钱包',
+      '进行对战提升排名',
+      '根据表现获得奖励'
+    ],
+    verified: true,
+    featured: false,
+    createdAt: '2026-02-09',
+    updatedAt: '2026-02-09'
+  },
+  {
+    id: '22',
+    slug: 'friend-tech',
+    name: 'friend.tech',
+    description: 'SocialFi 平台，通过社交活动和 Key 交易获得奖励。',
+    projectUrl: 'https://friend.tech',
+    logoUrl: '/logos/friendtech.png',
+    category: 'SocialFi',
+    chain: 'BASE',
+    status: 'active',
+    estimatedValue: '$200-$1000',
+    difficulty: 'easy',
+    requirements: [
+      '账户活跃',
+      'Key 交易',
+      '社交互动'
+    ],
+    steps: [
+      '注册 friend.tech 账号',
+      '绑定 Twitter',
+      '买卖 Key 保持活跃',
+      '参与社交互动和推荐'
+    ],
+    verified: true,
+    featured: false,
+    createdAt: '2026-02-09',
+    updatedAt: '2026-02-09'
   }
 ];
 
