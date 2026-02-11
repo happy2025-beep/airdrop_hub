@@ -603,6 +603,120 @@ export const mockAirdrops: Airdrop[] = [
     featured: false,
     createdAt: '2026-02-09',
     updatedAt: '2026-02-09'
+  },
+  {
+    id: '23',
+    slug: 'megaeth',
+    name: 'MegaETH',
+    description: '超高性能以太坊 L2，主网于 2月9日上线。MEGA 代币 TGE 预计 2-3 月进行，早期用户有积分奖励。',
+    projectUrl: 'https://megaeth.com',
+    logoUrl: '/logos/megaeth.png',
+    category: 'L2',
+    chain: 'ETH',
+    status: 'active',
+    estimatedValue: '$500-$5000',
+    difficulty: 'medium',
+    requirements: [
+      '参与主网交互',
+      '使用生态 DApp',
+      '积累积分'
+    ],
+    steps: [
+      '连接钱包到 MegaETH 主网',
+      '桥接资产到 MegaETH',
+      '使用生态内 DeFi 协议',
+      '积累积分等待 TGE'
+    ],
+    deadline: '2026-03-31',
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-11',
+    updatedAt: '2026-02-11'
+  },
+  {
+    id: '24',
+    slug: 'backpack',
+    name: 'Backpack',
+    description: 'Solana 生态交易所，由前 FTX 高管创办。宣布将 25% 代币用于空投，早期用户和交易活跃用户将获得奖励。',
+    projectUrl: 'https://backpack.exchange',
+    logoUrl: '/logos/backpack.png',
+    category: 'DeFi',
+    chain: 'SOL',
+    status: 'active',
+    estimatedValue: '$1000-$10000',
+    difficulty: 'medium',
+    requirements: [
+      '注册并完成 KYC',
+      '进行交易',
+      '保持活跃'
+    ],
+    steps: [
+      '注册 Backpack 交易所账户',
+      '完成身份验证',
+      '进行现货或永续合约交易',
+      '持续保持交易量'
+    ],
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-11',
+    updatedAt: '2026-02-11'
+  },
+  {
+    id: '25',
+    slug: 'nexira',
+    name: 'Nexira',
+    description: '跨游戏经济协议，通过 Ruby 积分系统奖励玩家。积分将于 2月19-23日解锁，2月24日左右转换为 $NEXI。',
+    projectUrl: 'https://nexira.ai',
+    logoUrl: '/logos/nexira.png',
+    category: 'GameFi',
+    chain: 'ETH',
+    status: 'active',
+    estimatedValue: '$100-$1000',
+    difficulty: 'easy',
+    requirements: [
+      '完成任务',
+      '参与小活动',
+      '收集奖励箱'
+    ],
+    steps: [
+      '访问 nexira.ai/airdrops',
+      '注册账号并连接钱包',
+      '完成每日任务和小活动',
+      '领取奖励箱获取 Ruby'
+    ],
+    deadline: '2026-02-23',
+    verified: true,
+    featured: false,
+    createdAt: '2026-02-11',
+    updatedAt: '2026-02-11'
+  },
+  {
+    id: '26',
+    slug: 'alaya-ai',
+    name: 'Alaya AI',
+    description: 'Web3 AI 数据基础设施项目，通过社区参与标注、训练和验证 AI 数据集。BNB Chain Lucky Season 空投进行中。',
+    projectUrl: 'https://alaya.ai',
+    logoUrl: '/logos/alaya.png',
+    category: 'AI',
+    chain: 'BNB',
+    status: 'active',
+    estimatedValue: '$50-$500',
+    difficulty: 'easy',
+    requirements: [
+      '完成日常任务',
+      '参与数据标注训练任务'
+    ],
+    steps: [
+      '在 DappBay 注册活动',
+      '绑定 BNB Chain 钱包',
+      '完成每日任务',
+      '完成至少一个训练任务'
+    ],
+    deadline: '2026-02-21',
+    verified: true,
+    featured: false,
+    createdAt: '2026-02-11',
+    updatedAt: '2026-02-11'
   }
 ];
 
