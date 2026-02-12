@@ -717,6 +717,35 @@ export const mockAirdrops: Airdrop[] = [
     featured: false,
     createdAt: '2026-02-11',
     updatedAt: '2026-02-11'
+  },
+  {
+    id: '27',
+    slug: 'sodex',
+    name: 'SoDEX',
+    description: '基于 ValueChain 的去中心化交易所，主打高速交易和完全托管。空投领取已于 2月13日开启，通过 SoPoints 系统分配 $SOSO 代币。',
+    projectUrl: 'https://sodex.io',
+    logoUrl: '/logos/sodex.png',
+    category: 'DeFi',
+    chain: 'SOL',
+    status: 'active',
+    estimatedValue: '$100-$1000',
+    difficulty: 'easy',
+    requirements: [
+      '参与测试网交易',
+      '积累 SoPoints',
+      '每周快照前保持活跃'
+    ],
+    steps: [
+      '注册 SoDEX 测试网账户',
+      '进行交易积累 SoPoints',
+      '邀请好友获得 25% 额外奖励',
+      '等待每周二分配确认'
+    ],
+    deadline: '2026-08-01',
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-12',
+    updatedAt: '2026-02-12'
   }
 ];
 
