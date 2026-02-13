@@ -746,6 +746,93 @@ export const mockAirdrops: Airdrop[] = [
     featured: true,
     createdAt: '2026-02-12',
     updatedAt: '2026-02-12'
+  },
+  {
+    id: '28',
+    slug: 'lootgo',
+    name: 'LootGo',
+    description: 'Walk-to-earn GameFi 项目，像 Pokémon GO 一样通过走路收集 memecoins。无需初始资金投入，通过日常活动赚取加密货币。',
+    projectUrl: 'https://www.lootgo.app',
+    logoUrl: '/logos/lootgo.png',
+    category: 'GameFi',
+    chain: 'MULTI',
+    status: 'active',
+    estimatedValue: '$50-$500',
+    difficulty: 'easy',
+    requirements: [
+      '下载 LootGo App',
+      '每日走路和开宝箱',
+      '完成任务获取奖励'
+    ],
+    steps: [
+      '下载并安装 LootGo 移动应用',
+      '创建账户并连接钱包',
+      '每天走路收集宝箱',
+      '完成游戏内任务',
+      '收集 memecoins 和 NFT 奖励'
+    ],
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-13',
+    updatedAt: '2026-02-13'
+  },
+  {
+    id: '29',
+    slug: 'loopscale',
+    name: 'Loopscale',
+    description: 'Solana 上的新一代 DeFi 借贷协议，通过模块化订单簿系统提供更高效的借贷市场。有积分奖励系统，预期会有空投。',
+    projectUrl: 'https://app.loopscale.com',
+    logoUrl: '/logos/loopscale.png',
+    category: 'DeFi',
+    chain: 'SOL',
+    status: 'active',
+    estimatedValue: '$200-$2000',
+    difficulty: 'medium',
+    requirements: [
+      '获取 waitlist code（beta 阶段）',
+      '存入资产并参与借贷',
+      '积累 Loopscale 积分'
+    ],
+    steps: [
+      '申请 waitlist 获取访问权限',
+      '连接 Solana 钱包',
+      '在平台上存入或借出资产',
+      '通过循环借贷获得更多积分',
+      '与合作伙伴项目（如 OnRe）获得双重奖励'
+    ],
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-13',
+    updatedAt: '2026-02-13'
+  },
+  {
+    id: '30',
+    slug: 'ionx-chain',
+    name: 'IONX Chain',
+    description: 'AI 驱动的区块链项目，预售已筹集超过 $8M。提供 5% loyalty airdrop 和高达 70% 的代币奖励，已通过 CertiK 和 Solid Proof 审计。',
+    projectUrl: 'https://ionxchain.com',
+    logoUrl: '/logos/ionx.png',
+    category: 'Infrastructure',
+    chain: 'ETH',
+    status: 'upcoming',
+    estimatedValue: '$100-$1000',
+    difficulty: 'easy',
+    requirements: [
+      '参与 presale',
+      '持有 IONX 代币',
+      '参与社区活动'
+    ],
+    steps: [
+      '访问官方网站参与预售',
+      '最低投资 $15',
+      '根据投资金额获得额外代币（25%-70%）',
+      '获得 5% loyalty airdrop',
+      '等待主网上线'
+    ],
+    verified: true,
+    featured: false,
+    createdAt: '2026-02-13',
+    updatedAt: '2026-02-13'
   }
 ];
 
