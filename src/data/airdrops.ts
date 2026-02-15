@@ -556,7 +556,7 @@ export const mockAirdrops: Airdrop[] = [
     description: 'Play-to-Earn 游戏，基于游戏表现而非被动挖矿分配奖励。',
     projectUrl: 'https://aiarena.io',
     logoUrl: '/logos/aiarena.png',
-    category: 'GameFi',
+    category: 'Gaming',
     chain: 'ARB',
     status: 'active',
     estimatedValue: '$100-$800',
@@ -583,7 +583,7 @@ export const mockAirdrops: Airdrop[] = [
     description: 'SocialFi 平台，通过社交活动和 Key 交易获得奖励。',
     projectUrl: 'https://friend.tech',
     logoUrl: '/logos/friendtech.png',
-    category: 'SocialFi',
+    category: 'Social',
     chain: 'BASE',
     status: 'active',
     estimatedValue: '$200-$1000',
@@ -668,7 +668,7 @@ export const mockAirdrops: Airdrop[] = [
     description: '跨游戏经济协议，通过 Ruby 积分系统奖励玩家。积分将于 2月19-23日解锁，2月24日左右转换为 $NEXI。',
     projectUrl: 'https://nexira.ai',
     logoUrl: '/logos/nexira.png',
-    category: 'GameFi',
+    category: 'Gaming',
     chain: 'ETH',
     status: 'active',
     estimatedValue: '$100-$1000',
@@ -697,7 +697,7 @@ export const mockAirdrops: Airdrop[] = [
     description: 'Web3 AI 数据基础设施项目，通过社区参与标注、训练和验证 AI 数据集。BNB Chain Lucky Season 空投进行中。',
     projectUrl: 'https://alaya.ai',
     logoUrl: '/logos/alaya.png',
-    category: 'AI',
+    category: 'Infrastructure',
     chain: 'BNB',
     status: 'active',
     estimatedValue: '$50-$500',
@@ -754,7 +754,7 @@ export const mockAirdrops: Airdrop[] = [
     description: 'Walk-to-earn GameFi 项目，像 Pokémon GO 一样通过走路收集 memecoins。无需初始资金投入，通过日常活动赚取加密货币。',
     projectUrl: 'https://www.lootgo.app',
     logoUrl: '/logos/lootgo.png',
-    category: 'GameFi',
+    category: 'Gaming',
     chain: 'MULTI',
     status: 'active',
     estimatedValue: '$50-$500',
@@ -833,6 +833,95 @@ export const mockAirdrops: Airdrop[] = [
     featured: false,
     createdAt: '2026-02-13',
     updatedAt: '2026-02-13'
+  },
+  {
+    id: '31',
+    slug: 'tord-labs',
+    name: 'Tord Labs',
+    description: 'DeFi + AI 交易生态系统，集成智能合约和人工智能交易工具。通过社交任务和钱包交互获取代币奖励。',
+    projectUrl: 'https://tordlabs.com/airdrop.html',
+    logoUrl: '/logos/tord-labs.png',
+    category: 'DeFi',
+    chain: 'BNB',
+    status: 'active',
+    estimatedValue: '$50000+',
+    difficulty: 'medium',
+    requirements: [
+      'BNB 钱包连接',
+      'X (Twitter) 关注和转发',
+      '加入 Telegram 社区',
+      '评论完成标记'
+    ],
+    steps: [
+      '访问 tordlabs.com/airdrop',
+      '连接 BNB 钱包',
+      '关注 @torddefi 并启用通知',
+      '在 X 上转发空投帖子',
+      '加入官方 Telegram',
+      '评论 DONE 并标签 5 个朋友',
+      '累积积分获取更高奖励'
+    ],
+    deadline: '2026-02-28',
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-15',
+    updatedAt: '2026-02-15'
+  },
+  {
+    id: '32',
+    slug: 'labubi-festival',
+    name: 'LABUBU Festival',
+    description: '限时空投活动，随机分配 100-1000 LABUBU 代币。在 PancakeSwap 或 Four.meme 上启动。',
+    projectUrl: 'https://pancakeswap.finance',
+    logoUrl: '/logos/labubu.png',
+    category: 'DeFi',
+    chain: 'BNB',
+    status: 'active',
+    estimatedValue: '$100-$1000',
+    difficulty: 'easy',
+    requirements: [
+      'BNB 钱包',
+      '参与活动窗口'
+    ],
+    steps: [
+      '访问 PancakeSwap 或 Four.meme',
+      '连接 BNB 钱包',
+      '参与 LABUBU 事件',
+      '领取随机奖励（100-1000 LABUBU）'
+    ],
+    deadline: '2026-02-23',
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-15',
+    updatedAt: '2026-02-15'
+  },
+  {
+    id: '33',
+    slug: 'azen-protocol',
+    name: 'AZEN Protocol',
+    description: '基于排名的空投竞赛，为 1000 名获奖者分配 $AZEN 代币。完成任务以获得排名分数。',
+    projectUrl: 'https://azen.protocol',
+    logoUrl: '/logos/azen.png',
+    category: 'Infrastructure',
+    chain: 'MULTI',
+    status: 'active',
+    estimatedValue: '$50-$500',
+    difficulty: 'medium',
+    requirements: [
+      '参与排名竞争',
+      '完成指定的链上和社交任务'
+    ],
+    steps: [
+      '注册 AZEN 账户',
+      '完成任务以获得排名分数',
+      '在 1000 名获奖者中竞争',
+      '根据排名最终获得 $AZEN 代币奖励'
+    ],
+    deadline: '2026-02-28',
+    verified: true,
+    featured: false,
+    createdAt: '2026-02-15',
+    updatedAt: '2026-02-15'
   }
 ];
 
