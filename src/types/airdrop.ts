@@ -1,4 +1,4 @@
-export type Category = 'DeFi' | 'NFT' | 'L2' | 'Gaming' | 'Infrastructure' | 'Social';
+export type Category = 'DeFi' | 'NFT' | 'L2' | 'Gaming' | 'Infrastructure' | 'Social' | 'AI';
 export type Chain = 'ETH' | 'SOL' | 'ARB' | 'OP' | 'BASE' | 'ZK' | 'BNB' | 'MULTI';
 export type Status = 'upcoming' | 'active' | 'ended';
 export type Difficulty = 'easy' | 'medium' | 'hard';
