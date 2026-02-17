@@ -922,6 +922,36 @@ export const mockAirdrops: Airdrop[] = [
     featured: false,
     createdAt: '2026-02-15',
     updatedAt: '2026-02-15'
+  },
+  {
+    id: '34',
+    slug: 'quantummindai',
+    name: 'QuantumMindAI',
+    description: '去中心化神经网络平台。7% 代币供应（700 万 QMAI）用于空投，每个参与者获得 1000 QMAI。',
+    projectUrl: 'https://quantummindai.online',
+    logoUrl: '/logos/quantummindai.png',
+    category: 'AI',
+    chain: 'BNB',
+    status: 'active',
+    estimatedValue: '$100-$500',
+    difficulty: 'easy',
+    requirements: [
+      'BNB 钱包（需要燃气费）',
+      'Telegram 账户',
+      'Twitter 账户'
+    ],
+    steps: [
+      '连接钱包',
+      '加入官方 Telegram 频道',
+      '关注官方 Twitter',
+      '保持钱包中的 BNB（用于燃气费）',
+      '领取 1000 QMAI 代币'
+    ],
+    deadline: '2026-02-28',
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-17',
+    updatedAt: '2026-02-17'
   }
 ];
 
