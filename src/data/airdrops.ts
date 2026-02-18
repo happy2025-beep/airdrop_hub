@@ -953,6 +953,152 @@ export const mockAirdrops: Airdrop[] = [
     createdAt: '2026-02-17',
     updatedAt: '2026-02-17'
   }
+,
+  {
+    id: '35',
+    slug: 'foru-ai',
+    name: 'ForU AI',
+    description: 'ForU AI 是一个去中心化AI代理平台，提供2,500 USDT的高价值空投。基于Galxe平台运行。',
+    projectUrl: 'https://foru.ai',
+    logoUrl: '/logos/foru-ai.png',
+    category: 'AI',
+    chain: 'ETH',
+    status: 'active',
+    estimatedValue: '$2000-$5000',
+    difficulty: 'medium',
+    requirements: [
+      'Galxe账户',
+      '完成空投任务',
+      '运气抽签'
+    ],
+    steps: [
+      '访问Galxe上的ForU AI项目',
+      '完成指定任务',
+      '参与抽签池',
+      '领取2,500 USDT奖励'
+    ],
+    deadline: '2026-03-31',
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-18',
+    updatedAt: '2026-02-18'
+  },
+  {
+    id: '36',
+    slug: 'vera-ai',
+    name: 'Vera',
+    description: 'Vera 是一个革命性的AI基础设施项目，计划分配2,500 USDC的启动空投奖励。',
+    projectUrl: 'https://vera.ai',
+    logoUrl: '/logos/vera.png',
+    category: 'Infrastructure',
+    chain: 'ETH',
+    status: 'active',
+    estimatedValue: '$2000-$5000',
+    difficulty: 'medium',
+    requirements: [
+      'Galxe账户',
+      '官方渠道验证',
+      '社交媒体关注'
+    ],
+    steps: [
+      '在Galxe官网注册',
+      '完成启动竞选任务',
+      '关注官方社交媒体',
+      '通过验证领取2,500 USDC'
+    ],
+    deadline: '2026-04-30',
+    verified: false,
+    featured: true,
+    createdAt: '2026-02-18',
+    updatedAt: '2026-02-18'
+  },
+  {
+    id: '37',
+    slug: 'arena-club',
+    name: 'ARENA CLUB',
+    description: 'ARENA CLUB 是一个竞争型的GameFi平台，提供1,500 USDC的空投奖励。',
+    projectUrl: 'https://arenaclub.io',
+    logoUrl: '/logos/arena-club.png',
+    category: 'Gaming',
+    chain: 'MULTI',
+    status: 'active',
+    estimatedValue: '$1000-$3000',
+    difficulty: 'medium',
+    requirements: [
+      '参与挑战',
+      '完成指定任务',
+      '社区积分'
+    ],
+    steps: [
+      '访问ARENA CLUB官网',
+      '注册账户并连接钱包',
+      '参与社区挑战赛',
+      '根据排名领取USDC奖励'
+    ],
+    deadline: '2026-04-15',
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-18',
+    updatedAt: '2026-02-18'
+  },
+  {
+    id: '38',
+    slug: 'ecor-defi',
+    name: 'ECOR',
+    description: 'ECOR 是一个生态修复和DeFi平台，提供1,000 USDC的空投奖励给早期参与者。',
+    projectUrl: 'https://ecor.io',
+    logoUrl: '/logos/ecor.png',
+    category: 'DeFi',
+    chain: 'MULTI',
+    status: 'active',
+    estimatedValue: '$800-$2000',
+    difficulty: 'easy',
+    requirements: [
+      'Galxe账户',
+      '参与Staking或DeFi',
+      '社交媒体互动'
+    ],
+    steps: [
+      '在Galxe上找到ECOR项目',
+      '完成质押或交易任务',
+      '参与社区投票',
+      '领取1,000 USDC'
+    ],
+    deadline: '2026-03-30',
+    verified: true,
+    featured: true,
+    createdAt: '2026-02-18',
+    updatedAt: '2026-02-18'
+  },
+  {
+    id: '39',
+    slug: 'global-dollar-network',
+    name: 'Global Dollar Network',
+    description: 'Global Dollar Network 是一个革命性的支付和DeFi平台，致力于跨链支付和资产转移。',
+    projectUrl: 'https://globaldollar.network',
+    logoUrl: '/logos/gdn.png',
+    category: 'DeFi',
+    chain: 'MULTI',
+    status: 'active',
+    estimatedValue: '$500-$2000',
+    difficulty: 'easy',
+    requirements: [
+      '完成钱包验证',
+      '跨链支付体验',
+      '社区参与'
+    ],
+    steps: [
+      '访问官方网站',
+      '连接钱包并验证身份',
+      '完成跨链支付测试',
+      '参与社区治理任务'
+    ],
+    deadline: '2026-05-31',
+    verified: true,
+    featured: false,
+    createdAt: '2026-02-18',
+    updatedAt: '2026-02-18'
+  }
 ];
 
 // 辅助函数
